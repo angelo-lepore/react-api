@@ -1,12 +1,50 @@
-# React + Vite
+Esercizio di oggi: Cast Fetching
+repo: react-api
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esercizio
 
-Currently, two official plugins are available:
+E’ arrivato il momento di mettere insieme i concetti appresi creiamo una piccola app che ci mostri un elenco di attori o attrici.
+Usate uno di questi due endpoint, a piacimento:
+Lista di Attrici: https://www.freetestapi.com/api/v1/actresses
+Lista di Attori: https://www.freetestapi.com/api/v1/actors
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+MILESTONE 1
 
-## Expanding the ESLint configuration
+Al caricamento dell'applicazione, recuperiamo la lista degli attori e delle attrici dalle API e stampiamoli in console.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+MILESTONE 2
+
+Prepariamo una card per ciascun attore/attrice, mostrandone le seguenti informazioni:
+nome
+anno nascita
+nazionalità
+biografia
+riconoscimenti
+immagine
+
+MILESTONE 3
+
+Mostriamo in pagina una card per ciascun attore, con grafica a piacimento!
+
+BONUS 1
+
+Stampare sia una lista delle attrici che degli attori, separatamente.
+
+BONUS 2
+
+Stampare un’unica lista che contiene attori e attrici insieme!
+
+BONUS 3
+
+Inserire un filtro di ricerca che permetta di cercare gli attori o le attrici per nome.
+
+Per fare questo bonus avrai bisogno di consultare la documentazione:
+documentazione attrici: https://www.freetestapi.com/apis/actresses
+documentazione attori: https://www.freetestapi.com/apis/actors
+
+Se FreeTestAPI dovesse fare i capricci, è possibile usare questi due endpoint alternativi:
+
+- https://lanciweb.github.io/demo/api/actresses/
+- https://lanciweb.github.io/demo/api/actors/
+
+Tuttavia, su questi endpoint non è possibile effettuare query di ricerca o di sorting
